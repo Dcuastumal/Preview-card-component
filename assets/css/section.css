@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    padding: 30px 15px;
+    background-color: rgb(242, 242, 242);
+}
+.sedans {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--Bright-orange);
+    padding: 80px 60px;
+}
+.suvs{
+    background-color: var(--Dark-cyan);
+    padding: 80px 60px;
+}
+.luxury{
+    background-color: var(--Very-dark-cyan);
+    padding: 80px 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+.btns:hover {
+    color: var(--Bright-orange);
+    background-color: white;
+}
+.btnss:hover {
+    color: var(--Dark-cyan);
+    background-color: white;
+}
+.btnl:hover {
+    color: var(--Very-dark-cyan);
+    background-color: white;
+}
+
+

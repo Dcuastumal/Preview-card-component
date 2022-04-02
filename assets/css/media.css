@@ -1,0 +1,54 @@
+@media only screen and (min-width: 375px){
+    .container{
+       display: flex;
+       padding: 90px 200px;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 90px -10px;
+    }
+    .btnl{
+        margin-bottom: 1000px;
+    }
+    .sedans {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 390px;
+    }
+    .luxury {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 390px;
+    }
+    .suvs {
+        height: 390px;
+    }
+    .attribution{
+        margin-left: 45%;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .container{
+        width: 1200px;
+        margin-left: 125px;
+        margin-top: 100px;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 3px;
+    }
+    .btnl{
+        margin-top: 70px;
+    }
+    .sedans {
+        margin-left: 70px;
+    }
+    .luxury{
+        margin-right: 70px;
+    }
+}

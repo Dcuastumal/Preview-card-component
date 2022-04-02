@@ -1,0 +1,38 @@
+body {
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: var(--Transparent-white);
+    font-size: 40px;
+    
+}
+p{
+    color: var(--Transparent-white);
+}
+p, a{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}
+.sedans a{
+    text-decoration: none;
+    color: var(--Transparent-white);
+}
+.suvs a {
+    text-decoration: none;
+    color: var(--Transparent-white);
+}
+.luxury a {
+    text-decoration: none;
+    color: var(--Transparent-white);
+}
+.attribution{
+    margin-left: 80px;
+    font-weight: bold;
+}
+.attribution a{
+    text-decoration: none;
+    color: rgb(88, 165, 165);
+    font-size: small;
+}
